@@ -1,68 +1,97 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Coming_Soon Landing Page</title>
-    <link
-      rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
-      integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc"
-      crossorigin="anonymous"
+    <title>Compalist</title>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, user-scalable=no"
     />
-
-    <link rel="stylesheet" href="./css/main.css" type="text/css" />
+    <link rel="stylesheet" href="assets/css/main.css" />
   </head>
-
-  <body>
-    <div class="container">
-      <div class="container_inside">
-        <div class="logo" style="padding-top : 50px;">
-          <svg
-            version="1.0"
-            xmlns="http://www.w3.org/2000/svg"
-            viewBox="0 0 500.000000 500.000000"
-            preserveAspectRatio="xMidYMid meet"
-            width="100"
-            height="100"
+  <body class="is-preload">
+    <!-- Header -->
+    <header id="header"></header>
+      <div class="logo">
+        <svg
+          version="1.0"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 500.000000 500.000000"
+          preserveAspectRatio="xMidYMid meet"
+          class="logo_img"
+        >
+          <g
+            transform="translate(0.000000,500.000000) scale(0.100000,-0.100000)"
+            fill="#fff"
+            stroke="none"
           >
-            <g
-              transform="translate(0.000000,500.000000) scale(0.100000,-0.100000)"
-              fill="#1D40AF"
-              stroke="none"
-            >
-              <path
-                d="M1810 4310 c-313 -31 -578 -156 -795 -374 -385 -390 -490 -972 -260
+            <path
+              d="M1810 4310 c-313 -31 -578 -156 -795 -374 -385 -390 -490 -972 -260
 -1454 73 -153 141 -248 265 -372 122 -122 217 -190 362 -260 205 -99 392 -125
 806 -114 179 6 232 4 232 -5 0 -9 72 -12 313 -9 344 3 342 3 415 72 122 114
 99 308 -45 393 l-48 28 -605 6 c-522 5 -616 8 -685 23 -346 76 -585 342 -625
 697 -45 393 204 748 595 850 64 16 122 21 285 26 136 3 220 9 250 19 140 44
 209 205 146 340 -29 62 -93 118 -151 133 -48 12 -335 13 -455 1z"
-              />
-              <path
-                d="M1890 3261 c-83 -27 -170 -98 -196 -158 -21 -49 -17 -121 10 -178 24
+            />
+            <path
+              d="M1890 3261 c-83 -27 -170 -98 -196 -158 -21 -49 -17 -121 10 -178 24
 -52 87 -117 134 -138 20 -8 201 -13 657 -17 l630 -6 95 -32 c119 -40 203 -89
 292 -171 171 -158 258 -354 258 -581 0 -372 -235 -680 -595 -781 -79 -22 -87
 -23 -950 -28 l-870 -6 -50 -23 c-124 -57 -171 -163 -131 -294 19 -65 60 -114
 119 -143 l52 -25 860 -1 c620 -1 883 2 943 10 305 44 562 176 770 396 175 185
 293 419 337 669 19 114 19 318 0 432 -47 268 -183 527 -379 719 -138 135 -343
 256 -516 305 -174 48 -229 52 -855 56 -324 2 -601 0 -615 -5z"
-              />
-            </g>
-          </svg>
-          <p class="logo-text">Compalist</p>
-        </div>
-        <p style="font-size:100px; font-weight: 700">Çok Yakında Sizlerleyiz</p>
-        <p >info@compalist.com</p>
-        <div class="social_connects">
-          <a href="https://www.facebook.com/profile.php?id=61557206260749&locale=tr_TR">
-            <i class="fab fa-facebook-f"></i>
-          </a>
-          <a href="https://www.linkedin.com/company/compalist/">
-            <i class="fab fa-linkedin-in"></i>
-          </a>
-        </div>
+            />
+          </g>
+        </svg>
+        <span class="logo-text">Compalist</span>
       </div>
-    </div>
+      <h1>Yenileniyoruz!</h1>
+      <p>
+        Web sayfamız üzerinde yoğun bir şekilde çalışıyoruz ve yakında yeniliklerle karşınızda olacağız! 
+        <br>
+        En güncel içerikler ve sürprizler için bizi takip etmeyi unutmayın.
+
+      </p>
+    </header>
+
+    <!-- 
+    <form id="signup-form" method="post" action="#">
+      <input type="email" name="email" id="email" placeholder="Email Address" />
+      <input type="submit" value="Sign Up" />
+    </form>
+     -->
+
+    <!-- Footer -->
+    <footer id="footer">
+      <ul class="icons">
+        <li>
+          <a href="#" class="icon brands fa-twitter"
+            ><span class="label">Twitter</span></a
+          >
+        </li>
+        <li>
+          <a href="#" class="icon brands fa-instagram"
+            ><span class="label">Instagram</span></a
+          >
+        </li>
+        <li>
+          <a href="#" class="icon brands fa-github"
+            ><span class="label">GitHub</span></a
+          >
+        </li>
+        <li>
+          <a href="#" class="icon fa-envelope"
+            ><span class="label">Email</span></a
+          >
+        </li>
+      </ul>
+      <ul class="copyright">
+        <li>&copy; Compalist.</li>
+      </ul>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="assets/js/main.js"></script>
   </body>
 </html>
